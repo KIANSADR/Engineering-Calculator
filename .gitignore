@@ -1,0 +1,30 @@
+# Build output
+compile/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+
+# VS Code
+.vscode/
+
+# Compiled files
+*.exe
+*.obj
+*.o
+*.pdb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+Thumbs.db
+Desktop.ini
