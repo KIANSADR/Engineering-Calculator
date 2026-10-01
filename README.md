@@ -186,4 +186,9 @@ https://github.com/KIANSADR
 
 ---
 
-⭐ If you find the project interesting, consider starring the repository.
+## ⭐ Compile Code
+
+compile: g++ -std=c++20 -Iinclude -Iinclude/Log  -Iinclude/Input -Iinclude/Out  -Iinlcude/Math -Iinclude/Message -Iinclude/History src/EngineeringCalculator.cpp include/Log/Log.cpp include/Input/Input.cpp include/Out/Out.hpp include/Math/Math.cpp include/Message/Message.cpp include/History/History.cpp -o main
+
+run: ./main
+
